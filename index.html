@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+  <head>
+
+      <title>Erro - Templad 404 untertale</title>
+
+      <!--favicon-->
+      <!-- <link rel="shortcut icon" href="" /> -->
+
+      <!--css-->
+      <!-- <link rel="stylesheet" type="text/css" href="../../manga/.site/css/estilo.css"> -->
+      <link rel="stylesheet" type="text/css" href="estilo.css">
+      <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+      <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/fontawesome.css"
+        integrity="sha384-eHoocPgXsiuZh+Yy6+7DsKAerLXyJmu2Hadh4QYyt+8v86geixVYwFqUvMU8X90l" crossorigin="anonymous" />
+
+      <!--bootstrap-->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+      <script src="../../bootstrap/js/jquery.min.js"></script>
+
+      <!--fontes-->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+      <!--particulas-->
+      <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  </head>
+
+<body class="dark">
+
+  <!-- particulas de fundo -->
+  <div id="particles-js">
+    <script>
+    particlesJS("particles-js", {"particles":{"number":{"value":160,"density":{"enable":true,"value_area":800}},"color":{"value":"#ffffff"},"shape":{"type":"circle","stroke":{"width":0,"color":"#000000"},"polygon":{"nb_sides":5},"image":{"src":"img/github.svg","width":100,"height":100}},"opacity":{"value":1,"random":true,"anim":{"enable":true,"speed":1,"opacity_min":0,"sync":false}},"size":{"value":3,"random":true,"anim":{"enable":false,"speed":4,"size_min":0.3,"sync":false}},"line_linked":{"enable":false,"distance":150,"color":"#ffffff","opacity":0.4,"width":1},"move":{"enable":true,"speed":1,"direction":"none","random":true,"straight":false,"out_mode":"out","bounce":false,"attract":{"enable":false,"rotateX":600,"rotateY":600}}},"interactivity":{"detect_on":"window","events":{"onhover":{"enable":false,"mode":"grab"},"onclick":{"enable":true,"mode":"push"},"resize":true},"modes":{"grab":{"distance":400,"line_linked":{"opacity":1}},"bubble":{"distance":250,"size":0,"duration":2,"opacity":0,"speed":3},"repulse":{"distance":400,"duration":0.4},"push":{"particles_nb":4},"remove":{"particles_nb":2}}},"retina_detect":true});var count_particles, stats, update; stats = new Stats; stats.setMode(0); stats.domElement.style.position = 'absolute'; stats.domElement.style.left = '0px'; stats.domElement.style.top = '0px'; document.body.appendChild(stats.domElement); count_particles = document.querySelector('.js-count-particles'); update = function() { stats.begin(); stats.end(); if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) { count_particles.innerText = window.pJSDom[0].pJS.particles.array.length; } requestAnimationFrame(update); }; requestAnimationFrame(update);;
+    </script>
+  </div>  
+
+  <!-- nav -->
+  <nav class="navbar navbar-expand-sm">
+    <div class="container-fluid">
+      <span>
+          <a class="navbar-brand text-light"><b>Templad 404 untertale</b></a>
+      </span>
+        
+      <!-- botão estilizadão -->
+      <div class="btn-nav navbar-toggle"  type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <div id="icon" class="Icon">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+       
+        <div class="nav_div" align="center">
+          <ul class="nav_ul">
+            <li class="nav-item">
+              <a href="#" class="btn-request" target="_blank">Reportar Erro<i class="font_13 fab fa-discord"></i></a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="btn-request_2"><i class="font_13 fas fa-search"></i></a>
+            </li>    
+          </ul>
+        </div>
+ 
+      </div>
+
+    </div>
+  </nav>
+
+  <!-- caixa de dialogo -->
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-3 col-md-2 col-lg-1 col-xl-1">
+        <div class="relativo">
+          <img id="flower" class="flower" src="gif´s/flow-0.gif" width="70px">
+        </div>
+      </div>
+      <div class="col-sm-9 col-md-10 col-lg-11 col-xl-11">
+        <div class="caixa_dialogo">
+          <span>
+            <span class="ping_diagolo">* </span><b><span class="text_diagolo" id="balao"><span id="balao_2"></b></span></span>
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- corpo principal -->
+  <div class="lg cards_parallax" data-tilt>
+    <div class="mt central-body">
+      <div align="center">
+        <h1 class="text-404">404</h1>
+        <h3 class="pne-404" data-tilt>PÁGINA<br> NÃO<br> ENCONTRADA</h3>
+        <div class="mt_2">
+          <a style="cursor: pointer;" class="btn-go-home" onclick="lol(); lol_2()" data-tilt>Continue</a>
+          <a href="sua-pag.html" class="m3 btn-go-home" data-tilt>Reset</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- vidas -->
+  <div class="vidas">
+    <span id="negativo"></span><span id="negativo_2"></span><br>
+    <img id="v1" width="25px" />
+    <img id="v2" width="25px" />
+    <img id="v3" width="25px" />
+    <img id="v4" width="25px" />
+    <img id="v5" width="25px" />
+  </div>
+  
+  <!-- imagens -->
+  <div class="objects">
+    <img class="lua"
+      src="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAVCAQAAAADHm0dAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAHdElNRQflCAkVKRn95XJqAAAAqUlEQVQoz7VTQQ7CMAxzFjaEtB258P/HcYcDQjBzaEvTJpNACPfSpJFrJ60QBk2QIWUz4GPsGsY97t35DBbmVDo5CoU6JSyMC64mv1aNlXV2jH2mmCVJngizHiSnJgOCxlbCESMUcPaaDiScMUCxRs2K+hoN4rsR/FgqcWlvS7PWoDxifQIYg8vegz3gZvLBYCtrK2VTgEBwAc0Lk7yWLVvqnqOJ5R8fRl7JGzGJ7oj7yQAAAABJRU5ErkJggg=="
+      width="11px">
+    <img class="whimsun" src="gif´s/Whimsun.gif" width="30px">
+    <div class="box_sans">
+      <img class="sans"
+        src="data:img/png;base64,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"
+        width="25%">
+    </div>
+  </div>
+
+</body>
+
+<script src="script.js"></script>
+
+<script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"
+  integrity="sha512-fzff82+8pzHnwA1mQ0dzz9/E0B+ZRizq08yZfya66INZBz86qKTCt9MLU0NCNIgaMJCgeyhujhasnFUsYMsi0Q=="
+  crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+<script>
+  var VanillaTilt = function () { "use strict"; class t { constructor(t, e = {}) { if (!(t instanceof Node)) throw "Can't initialize VanillaTilt because " + t + " is not a Node."; this.width = null, this.height = null, this.left = null, this.top = null, this.transitionTimeout = null, this.updateCall = null, this.updateBind = this.update.bind(this), this.element = t, this.settings = this.extendSettings(e), this.reverse = this.settings.reverse ? -1 : 1, this.addEventListeners() } addEventListeners() { this.onMouseEnterBind = this.onMouseEnter.bind(this), this.onMouseMoveBind = this.onMouseMove.bind(this), this.onMouseLeaveBind = this.onMouseLeave.bind(this), this.element.addEventListener("mouseenter", this.onMouseEnterBind), this.element.addEventListener("mousemove", this.onMouseMoveBind), this.element.addEventListener("mouseleave", this.onMouseLeaveBind) } removeEventListeners() { this.element.removeEventListener("mouseenter", this.onMouseEnterBind), this.element.removeEventListener("mousemove", this.onMouseMoveBind), this.element.removeEventListener("mouseleave", this.onMouseLeaveBind) } destroy() { this.removeEventListeners(), this.element.vanillaTilt = null, delete this.element.vanillaTilt, this.element = null } onMouseEnter(t) { this.updateElementPosition(), this.element.style.willChange = "transform", this.setTransition() } onMouseMove(t) { null !== this.updateCall && cancelAnimationFrame(this.updateCall), this.event = t, this.updateCall = requestAnimationFrame(this.updateBind) } onMouseLeave(t) { this.setTransition(), this.settings.reset && this.reset() } reset() { requestAnimationFrame(() => { this.event = { pageX: this.left + this.width / 2, pageY: this.top + this.height / 2 }, this.element.style.transform = "perspective(" + this.settings.perspective + "px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1)" }) } getValues() { let t = (this.event.clientX - this.left) / this.width, e = (this.event.clientY - this.top) / this.height; t = Math.min(Math.max(t, 0), 1), e = Math.min(Math.max(e, 0), 1); let i = (this.reverse * (this.settings.max / 2 - t * this.settings.max)).toFixed(2), s = (this.reverse * (e * this.settings.max - this.settings.max / 2)).toFixed(2); return { tiltX: i, tiltY: s, percentageX: 100 * t, percentageY: 100 * e } } updateElementPosition() { let t = this.element.getBoundingClientRect(); this.width = this.element.offsetWidth, this.height = this.element.offsetHeight, this.left = t.left, this.top = t.top } update() { let t = this.getValues(); this.element.style.transform = "perspective(" + this.settings.perspective + "px) rotateX(" + ("x" === this.settings.axis ? 0 : t.tiltY) + "deg) rotateY(" + ("y" === this.settings.axis ? 0 : t.tiltX) + "deg) scale3d(" + this.settings.scale + ", " + this.settings.scale + ", " + this.settings.scale + ")", this.element.dispatchEvent(new CustomEvent("tiltChange", { detail: t })), this.updateCall = null } setTransition() { clearTimeout(this.transitionTimeout), this.element.style.transition = this.settings.speed + "ms " + this.settings.easing, this.transitionTimeout = setTimeout(() => this.element.style.transition = "", this.settings.speed) } extendSettings(t) { let e = { reverse: !1, max: 35, perspective: 1e3, easing: "cubic-bezier(.03,.98,.52,.99)", scale: "1", speed: "300", transition: !0, axis: null, reset: !0 }, i = {}; for (var s in e) if (s in t) i[s] = t[s]; else if (this.element.hasAttribute("data-tilt-" + s)) { let t = this.element.getAttribute("data-tilt-" + s); try { i[s] = JSON.parse(t) } catch (e) { i[s] = t } } else i[s] = e[s]; return i } static init(e, i) { e instanceof Node && (e = [e]), e instanceof NodeList && (e = [].slice.call(e)), e instanceof Array && e.forEach(e => { "vanillaTilt" in e || (e.vanillaTilt = new t(e, i)) }) } } return "undefined" != typeof document && (window.VanillaTilt = t, t.init(document.querySelectorAll("[data-tilt]"))), t }();
+</script>
+</html>
