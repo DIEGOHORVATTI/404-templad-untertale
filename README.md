@@ -1,5 +1,5 @@
 # 404-templad-untertale
-Uma página de 404 com interações divertidas 
+Uma página de 404 com interações divertidas e roteameneto
 
 <img height="auto" src="https://i.imgur.com/kKpw2sx.png">
 <img height="auto" src="https://i.imgur.com/detR5js.png">
